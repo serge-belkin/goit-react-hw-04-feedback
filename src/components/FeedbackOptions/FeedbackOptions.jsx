@@ -1,7 +1,7 @@
 import css from './FeedbackOptions.module.css';
 import { PropTypes } from 'prop-types';
 
-const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div className={css.options}>
       {options.map(option => {
@@ -24,5 +24,3 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string),
 };
-
-export default FeedbackOptions;
