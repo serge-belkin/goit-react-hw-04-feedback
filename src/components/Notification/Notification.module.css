@@ -1,0 +1,15 @@
+.message {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.message::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+}

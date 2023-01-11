@@ -1,0 +1,28 @@
+.item__good,
+.item__neutral,
+.item__bad,
+.item__total {
+
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px;
+}
+
+.item__good {
+  background-color: #78BC61;
+}
+
+.item__neutral {
+  background-color: #C59B76;
+}
+
+.item__bad {
+  background-color: #E9806E;
+}
+
+.item__total {
+  background-color: #4440C4;
+}
+
