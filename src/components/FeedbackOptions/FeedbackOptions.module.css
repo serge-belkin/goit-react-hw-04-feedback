@@ -1,0 +1,41 @@
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+.good,
+.neutral,
+.bad {
+  width: 20%;
+  padding: 15px 20px;
+  margin: 0 15px;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #fff;
+}
+
+.good {
+  background-color: #78BC61;
+}
+
+.neutral {
+  background-color: #C59B76;
+}
+
+.bad {
+  background-color: #E9806E;
+}
+
+.good:hover {
+  background-color: #4d793e;
+}
+
+.neutral:hover {
+  background-color: #83674e;
+}
+
+.bad:hover {
+  background-color: #ac5f51;
+}
